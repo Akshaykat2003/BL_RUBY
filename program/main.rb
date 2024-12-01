@@ -127,32 +127,62 @@ arr2 = Array.new(10)
 
 # create hash
 
-hash = {
-    "Name" => "akshay",
-    "age" => "20",
-    "address" =>"pune"
-}
-#second way of creating hash
-hash2 = {
-    "Name": "akshay",
-    "age": "20",
-    "address": "pune"
-}
+# hash = {
+#     "Name" => "akshay",
+#     "age" => "20",
+#     "address" =>"pune"
+# }
+# #second way of creating hash
+# hash2 = {
+#     "Name": "akshay",
+#     "age": "20",
+#     "address": "pune"
+# }
 
-puts hash["Name"]
-puts hash.size
-puts hash2[:"address"]
-
-
-hash.each do |key,value|
-    puts "#{key} : #{value}"
-end
+# puts hash["Name"]
+# puts hash.size
+# puts hash2[:"address"]
 
 
-age = 18
-if age>18
-    puts "You are eligibke to drive"
-else
-    puts "you are not Eligible to drive "
-end
+# hash.each do |key,value|
+#     puts "#{key} : #{value}"
+# end
 
+
+# age = 18
+# if age>18
+#     puts "You are eligibke to drive"
+# else
+#     puts "you are not Eligible to drive "
+# end
+
+# for i in 1..10 
+#     puts i
+# end
+
+# for i in [1,2,3,4,5]
+#     puts i
+# end
+
+# x = 1
+# while x<10 do 
+#     puts x
+#     x+=1
+# end
+
+
+#until 
+
+# i = 1
+# until i==10
+#     puts i
+#     i+=1
+# end
+
+#unless
+
+ i = 1 
+ unless i<10
+    puts i
+    i+=1
+ end
